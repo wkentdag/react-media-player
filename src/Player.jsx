@@ -132,6 +132,7 @@ class Player extends Component {
       src,
       vendor,
       autoPlay,
+      muted: defaultMuted,
       isLoading: this._setLoading,
       onReady: this._handleOnReady,
       onEnded: this._handleOnEnded,
